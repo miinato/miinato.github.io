@@ -1,4 +1,3 @@
-
 <!DOCTYPE html >
 <html>
 
@@ -9,25 +8,70 @@
     <link href="http://fonts.googleapis.com/ css?family=Marko+One" rel="stylesheet">
     <style type="text/css" media="screen">
       body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: small;
+        line-height: 1.75em;
+      }
+
+      h1, h2, #info {
+        text-align: center;
       }
 
       h1 {
-        font-family: "Marko One", Georgia, 'Times New Roman', Times, serif;
-        font-size: 1.5em;
+        font: bold 1.5em "Marko One", Georgia, serif;
+        color: purple;
+        text-shadow: .1em .1em .2em lightslategray;
       }
 
       h2 {
         font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        color: purple;
       }
-
+  
       p, dl {
         font-size: .875rem;
       }
 
       dt {
         font-weight: bold;
+        color: sienna;
+      }
+
+      strong {
+        font-style: italic;
+      }
+
+      dt strong {
+        color: maroon;
+      }
+
+      h2 + p {
+        text-align: center;
+        font-style: italic;
+      }
+
+      #info p {
+        color: gray;
+        font-style: italic;
+      }
+
+      .label {
+        font-weight: bold;
+        font-variant: small-caps;
+        font-style: normal;
+      }
+
+      .price {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        color: gray;
+      }
+
+      p.warning, sup {
+        font-size: x-small;
+        color: red;
       }
     </style>
   </head>
