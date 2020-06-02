@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XAMPP / WAMP</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../stylish/dns.css">
+    <style>
+        a.link {
+            color: #40ff00;
+            text-decoration: none;
+        }
+        a.link:hover {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+
+        img {width: 660px;}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LazyBoy</a>
+        <ul>
+            <li><a href="../1.html">Home</a></li>
+            <li><a href="../../exes/homeexes.html">Exercises</a></li>
+            <li><a href="#content">Contents</a></li>
+            <li><a href="#others">Others Labs</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+
+    <div id="content" class="content">
+        <div class="content-box">
+           <h1 class="content-title">1. Web server là gì?</h1>
+            <p class="content-text">Web server dịch ra tiếng Việt nghĩa là máy chủ. Web server là máy tính lớn được kết nối với tập hợp mạng máy tính mở rộng. Đây là một dạng máy chủ trên internet mỗi máy chủ là một IP khác nhau và có thể đọc các ngôn ngữ như file *.html… Tóm lại máy chủ là kho để chứa toàn bộ dữ liệu hoạt động trên internet mà nó được giao quyền quản lý.</p>
+                <div class="content-img">
+                    <img src="../image/xampp-localhost.png" alt="">
+                </div>
+            <h2 class="content-title-mini">Hướng dẫn cài đặt XAMPP trên windows</h2> 
+            <p class="content-text">1. Bước 1:<a class="link" href="https://www.apachefriends.org/download.html">Download XAMPP</a></p>
+            <p class="content-text">2. Bước 2: Nhấp vào file có đuôi .exe trên file tải xuống.</p>
+            <p class="content-text">3. Bước 3: Trên cửa sổ Set up, tích chọn các phần mềm mà bạn muốn cài đặt. Nếu bạn muốn cài WordPress trên XAMPP, các phần mềm bắt buộc phải chọn là MySQL, Apache, PHPMyAdmin. Sau khi chọn xong, nhấn Next.</p>
+            <p class="content-text">4. Bước 4: Chọn thư mục cài đặt và nhấn Next.</p>
+            <p class="content-text">5. Bước 5: Chờ vài phút để cài đặt, sau khi cài đặt hoàn tất nhấn finish để kết thúc.</p>
+            <h2 class="content-title-mini">Cấu Hình Xampp Trên Windows 10</h2>
+            <p class="content-text">Xampp Control Panel bao gồm 3 phần chính. Trong phần Modules hiển thị danh sách tất cả các service có sẵn. Bạn có thể chạy từng service một bằng cách click chọn nút Start.</p>
+            <p class="content-text">Khi chạy một số dịch vụ, như Apache và MySQL, ở cột bên phải bạn sẽ nhìn thấy số ID của process và số cổng TCP/IP mà từng dịch vụ đang sử dụng. Ví dụ, mặc định Apache sử dụng cổng TCP/IP 80 và 443 còn MySQL sử dụng cổng TCP/IP 3306.</p>
+            <p class="content-text">Ngoài ra bạn có thể click chọn nút Admin để truy cập bảng điều khiển Admin cho từng dịch vụ và xác minh mọi thứ đang hoạt động đúng cách.</p>
+            <div class="content-img">
+                    <img src="../image/xampp-control-panel.jpg" alt="">
+                </div>
+            <p class="content-text">Ở cột bên phải hiển thị danh sách các nút để cấu hình Xampp, bao gồm nút Config để cấu hình các module tự động khởi động khi chạy Xampp.</p>
+            <div class="content-img">
+                    <img src="../image/xampp-config.jpg" alt="">
+                </div>
+            <p class="content-text">Netstart cung cấp danh sách các dịch vụ hiện đang truy cập hệ thống mạng, thông tin process ID và cổng TCP/IP.</p>
+            <div class="content-img">
+                    <img src="../image/xampp-netsart.jpg" alt="">
+                </div>
+            <p class="content-text">Các nút truy cập nhanh bao gồm mở tiện ích dòng lệnh shell, thư mục cài đặt Xampp, services, ... .</p>
+            <p class="content-text">Cuối cùng là phần logs. Tại đây bạn có thể xem những thay đổi cài đặt hoặc những gì diễn ra khi chạy module. Ngoài ra đây cũng là nơi để tìm ra thủ phạm gây ra các vấn đề, sự cố.</p>
+            <div class="content-img">
+                    <img src="../image/xampp-log.jpg" alt="">
+                </div>
+
+            <p class="content-text">Các cài đặt mặc định Xampp tạo môi trường thử nghiệm cho người dùng chạy một trang web cá nhân hoặc client . Tuy nhiên tùy thuộc vào cấu hình cài đặt, người dùng có thể sẽ phải thay đổi số cổng TCP/IP cho máy chủ Apache, kích thước tải lên cơ sở dữ liệu hoặc đặt mật khẩu cho phpMyAdmin.</p>
+            <p class="content-text">Để thay đổi các cài đặt này, bạn sử dụng nút Config của các dịch vụ tương ứng. Chẳng hạn như file httpd.conf để thay đổi cài đặt máy chủ Apache và file my.ini để thay đổi cài đặt cho MySQL.</p>
+        </div>
+        <div class="content-box">
+           <h1 class="content-title">2. WAMP</h1>
+            <p class="content-text">WAMP hay Wampserver là một phần mềm giả lập server miễn phí, cho phép chạy thử website ngay trên máy tính cá nhân bằng Localhost. Ý nghĩa của từ WAMP là gì? Phần mềm WAMP dùng để cài đặt Apache, MySQL, và PHP lên hệ điều hành Windows.</p>
+                <div class="content-img">
+                    <img src="../image/wamp.png" alt="">
+                </div>
+            <h2 class="content-title-mini">Hướng dẫn cài đặt WAMP trên windows</h2> 
+            <p class="content-text">1. Bước 1:<a class="link" href="http://www.wampserver.com/en/#download-wrapper">Download XAMPP</a></p>
+            <p class="content-text">2. Bước 2: Mở file cài đặt lên.</p>
+            <p class="content-text">3. Bước 3: Màn hình sẽ hiển thị cửa sổ cài đặt. Bạn chỉ cần nhấn OK, Next hoặc Install liên tục cho đến khi kết thúc cài đặt là được.</p>
+            <p class="content-text">4. Bước 4: Nếu hệ thống không thông báo bất kỳ lỗi gì và thấy shortcut icon của WAMP hiển thị trên màn hình Desktop thì có nghĩa là bạn đã cài đặt thành công.</p>
+           
+            <h2 class="content-title-mini">Cấu Hình WAMP Trên Windows 10</h2>
+            <p class="content-text">Để sử dụng, bạn chỉ cần click double vào icon WAMP trên Destop. Khi đó, tại khay hệ thống (System Tray) ở góc dưới, bên phải màn hình, sẽ xuất hiện một biểu tượng WAMP.Nhờ màu sắc của biểu tượng này mà bạn sẽ biết được trạng thái hoạt động của WAMP. Nếu WAMP hoạt động bình thường thì biểu tượng có màu xanh lá. Nếu WAMP chỉ hoạt động 1 hoặc 2 chức năng thì biểu tượng sẽ có màu cam. Còn nếu không có chức năng nào của WAMP hoạt động thì biểu tượng sẽ có màu đỏ.</p>
+            <div class="content-img">
+                    <img src="../image/wamp-bt.jpg" alt="">
+                </div>
+            <p class="content-text">Để truy cập vào menu của Wampserver, hãy click chuột trái vào biểu tượng WAMP trên khay hệ thống. Bạn sẽ thấy một bảng biểu xuất hiện với một số lệnh chính sau:</p>
+            <p class="content-text">1. Localhost: Cho phép mở website nằm trong folder web root bằng trình duyệt web.</p>
+            <p class="content-text">2. PHPMyAdmin: Cho phép mở trang quản lý cơ sở dữ liệu PHPMyAdmin thông qua trình duyệt web.</p>
+            <p class="content-text">3. Apache: Các lệnh liên quan đến web chủ Apache</p>
+            <p class="content-text">4. MySQL: Các lệnh liên quan đế hệ quản trị cơ sở dữ liệu MySQL</p>
+            <p class="content-text">5. PHP: Nơi sẽ hiển thị và cho phép bạn chỉnh sửa các tập tin cấu hình sử dụng ngôn ngữ lập trình PHP</p>
+            <p class="content-text">6. Start All Services: Bật tất cả các chức năng/dịch vụ của WAMP</p>
+            <p class="content-text">7. Stop All Services: Tắt tất cả các chức năng/dịch vụ của WAMP</p>
+            <p class="content-text">8. Restart All Services: Khởi động lại tất cả các chức năng/dịch vụ của WAMP</p>
+        </div>
+        <div id="others" class="board">
+                 <h1 class="content-title-mini">Tìm Hiểu Thêm</h1>
+                    <table>
+                        <tr>
+                            <th id="gem1"> <a href="webserver.html" class="spac">Tìm hiểu Web Server</a> </th>
+                            <th id="gem2"> <a id="line" href="host.html" class="spac">Tìm hiếu các loại hosting</a> </th>
+                            <th id="gem3"> <a id="line" href="webhosting.html" class="spac">Tìm hiểu các thông số web hosting</a> </th>
+                                </tr>
+                    </table>
+            </div>
+    </div>
+            
+             
+                
+        </div> 
+
+
+
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+
+</body>
+</html>

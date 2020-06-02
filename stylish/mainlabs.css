@@ -1,0 +1,146 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      background: #161616;
+      overflow: hidden;
+      cursor: url("../image/cursor.png"),auto;
+}
+.block p {
+      color: #fff;
+      animation: glow 4s ease-in-out infinite alternate;
+      display: flex;
+      justify-content: center;
+}
+
+@keyframes glow {
+      from {
+    text-shadow: 0 0 10px #DCDCDC, 0 0 20px #D3D3D3, 0 0 30px #C0C0C0, 0 0 40px #A9A9A9, 0 0 50px #808080, 0 0 60px #A9A9A9, 0 0 70px #C0C0C0;
+  }
+       to {
+    text-shadow: 0 0 20px #000000, 0 0 30px #2F4F4F, 0 0 40px #708090, 0 0 50px #778899, 0 0 60px #A9A9A9, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.container .row a {
+    cursor: url(../image/cursor.png), auto;
+    text-decoration: none;
+    margin: 4em 8em;
+}
+
+.backa {
+      background: white;
+      width: 100px;
+}
+
+a.lobby {
+    color: #161616;
+    text-decoration: none;
+    cursor: url("../image/cursor.png"),auto;
+}
+
+a.lobby:hover {
+    color: gray;
+    cursor: url("../image/cursor.png"),auto;
+}
+
+.header {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-family: "Open Sans", serif;
+      text-transform: uppercase;
+      color: white;
+      z-index: 2;
+}
+
+.container {
+      position: absolute;
+      width: 200%;
+      height: 200vh;
+}
+
+.row {
+      display: flex;
+      justify-content: space-around;
+      margin: 4em 8em;
+}
+
+.block {
+      width: 400px;
+      height: 500px;
+      background: grey;
+      
+      
+      margin: 1em;
+      
+      font-size: 40px;
+      filter: grayscale(1);
+      opacity: 0.4;
+      transition: 1s;
+      
+}
+
+
+
+.block:hover {
+      filter: grayscale(0);
+      opacity: 1;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-1 {
+      background: url("../image/domain.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-2 {
+      background: url("../image/hosting.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-3 {
+      background: url("../image/paid.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-4 {
+      background: url("../image/shared.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-5 {
+      background: url("../image/signfree.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-6 {
+      background: url("../image/signpaid.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-7 {
+      background: url("../image/webhosting.jpg") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-8 {
+      background: url("../image/server.png") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}
+
+.block-9 {
+      background: url("../image/xampp.png") no-repeat 50% 50%;
+      background-size: cover;
+      cursor: url("../image/cursor.png"),auto;
+}

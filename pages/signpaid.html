@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Paid</title>
+   	<meta charset="utf-8">
+    <link rel="stylesheet" href="../stylish/dns.css">
+    <style>
+        a.link {
+            color: #40ff00;
+            text-decoration: none;
+        }
+        a.link:hover {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+
+        img {width: 660px;}
+    </style>
+</head>
+<body>
+	<header>
+        <a href="#" class="logo">LazyBoy</a>
+        <ul>
+            <li><a href="../1.html">Home</a></li>
+            <li><a href="../../exes/homeexes.html">Exercises</a></li>
+            <li><a href="#content">Contents</a></li>
+            <li><a href="#others">Others Labs</a></li>
+        </ul>
+    </header>
+    <section class="banner"></section>
+
+    <div id="content" class="content">
+        <div class="content-box">
+            <p class="content-text">“Shared hosting trả phí” có nhiều thành phần và dịch vụ để cấu hình hơn so với “shared hosting miễn phí”. Tuy nhiên, cách đưa một website lên hosting thì tương tự.</p>
+            <h2 class="content-title-mini">Tham khảo một số giao diện:</h2>
+            <p class="content-text">Tiện ích cPanel:</p>
+            <div><img src="../image/cpnel.jpg" alt=""></div>
+            <p class="content-text">Thư mục của một tài khoản (hosting)</p>
+            <div><img src="../image/thumuc1taikhoan.jpg" alt=""></div>
+            <p class="content-text">Nơi chứa nội dung website (MVC):</p>
+            <div><img src="../image/mvc.jpg" alt=""></div>
+        </div>
+        
+            <div id="others" class="board">
+                 <h1 class="content-title-mini">Tìm Hiểu Thêm</h1>
+                    <table>
+                        <tr>
+                            <th id="gem1"> <a href="host.html" class="spac">Tìm hiểu về các loại hosting</a> </th>
+                            <th id="gem2"> <a id="line" href="shared.html" class="spac">Shared hosting miễn phí</a> </th>
+                            <th id="gem3"> <a id="line" href="webhosting.html" class="spac">Các thông số web hosting</a> </th>
+                                </tr>
+                    </table>
+            </div> 
+    </div>
+
+	<script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+    </script>
+	
+</body>
+</html>

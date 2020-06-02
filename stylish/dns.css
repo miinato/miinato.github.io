@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', serif;
+	line-height: 56px;
+}
+
+h2.content-title-mini {
+    color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.board {
+    margin: 0 50px;
+}
+
+.content {
+    width: 700px;
+    margin: 0 441px 0;
+}
+
+
+th#gem3 {
+    border: 1px solid #fff;
+}
+
+th#gem2 {
+    border: 1px solid #fff;
+    border-right: 1px solid transparent;
+}
+
+th#gem1 {
+    border: 1px solid #fff;
+    border-right: 1px solid transparent;
+}
+
+i#yolo {
+    font-size: 30px;
+}
+
+a.spac {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'open sans',serif;
+    text-decoration: none;
+    position: relative;
+}
+
+
+a.spac:hover {
+    background: black;
+    height: 82px;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    padding-top: 25px;
+    font-family: 'Tomatoes';
+    box-shadow: 0 0 60px 30px #fff, 
+        0 0 100px 60px #f0f, 
+        0 0 140px 90px #0ff;
+}
+
+
+
+table, th, td {
+    height: 82px;
+    width: 900px;
+    margin-left: -141px;
+}
+
+
+::-webkit-scrollbar {
+    width: 14px;
+    display: none;
+}
+
+
+body{
+	background: #000;
+	min-height: 200vh;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	z-index: 10000;
+}
+
+header.sticky {
+	padding: 5px 100px;
+	background: #fff;
+}
+header .logo {
+	position: relative;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	font-family: 'Tomatoes';
+	letter-spacing: 2px;
+	transition: 0.6s;
+}
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header ul li {
+	position: relative;
+	list-style: none;
+}
+
+header ul li a {
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 500px;
+	transition: 0.5s;
+}
+
+.banner {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(../image/aurora.jpg);
+	background-size: cover;
+	background-position: top;
+}
+header.sticky .logo,
+header.sticky ul li a {
+	color: #000;
+}
+
+p {
+	color: #fff;
+	font-family: 'Open Sans',serif;
+}
+
+h1, h2, h3 {
+	color: #fff;
+	font-weight: 700;
+}
+
+h1.content-title-mini {
+    margin: 15px 190px;
+}
+
